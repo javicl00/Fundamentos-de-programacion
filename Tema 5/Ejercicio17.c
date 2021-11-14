@@ -25,7 +25,7 @@ void matrizMenor(int m[100][100], int nfil, int ncol, int p, int q, int menor[10
   l = 0;
   for (i = 0; i < nfil; i++)
   {
-    for (j = 0; j < ncol; j+8+)
+    for (j = 0; j < ncol; j++)
     {
       if (i != p && j != q)
       {
